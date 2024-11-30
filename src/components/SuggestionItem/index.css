@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.search-suggestions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion {
+  font-size: 10px;
+  color: #475569;
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.arrow-icon {
+  height: 15px;
+  width: 15px;
+}
+@media (min-width: 768px) {
+  .suggestion {
+    font-size: 18px;
+  }
+  .arrow-icon {
+    height: 25px;
+    width: 25px;
+    color: #64748b;
+  }
+}
